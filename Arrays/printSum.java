@@ -1,5 +1,7 @@
 package Arrays;
-
+/*
+   Given an array of sorted numbers and a fixed sum, find all pairs of numbers that add up to the given sum.
+*/
 public class printSum {
 	public static void main(String[] args){
 		int[] arr = {1, 2, 3, 4, 5, 6, 7, 9, 12, 13};
