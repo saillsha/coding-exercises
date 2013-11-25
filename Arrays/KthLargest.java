@@ -1,5 +1,9 @@
 package Arrays;
 import java.util.*;
+
+/* 
+   Randomized algorithm to find the Kth largest element in an array. Performs successive partitions similar to quicksort
+*/
 public class KthLargest {
 	public static int KthLargest(int[] array, int k){
 		if(array == null || k < 0 || k >= array.length)
