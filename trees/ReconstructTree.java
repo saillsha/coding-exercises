@@ -1,5 +1,7 @@
 package trees;
-
+/*
+    Given a pre-order and post-order traversal of a tree, reconstruct the original tree
+*/
 public class ReconstructTree {
 	public static TreeNode<Integer> reconstructTree(int[] preorder, int[] inorder){
 		if(preorder == null || inorder == null || preorder.length != inorder.length)
